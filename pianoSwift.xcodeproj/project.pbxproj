@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29734DF41A294E7B009E18E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29734DF31A294E7B009E18E7 /* AppDelegate.swift */; };
+		29734DF61A294E7B009E18E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29734DF51A294E7B009E18E7 /* ViewController.swift */; };
+		29734DF91A294E7B009E18E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29734DF71A294E7B009E18E7 /* Main.storyboard */; };
+		29734DFB1A294E7B009E18E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29734DFA1A294E7B009E18E7 /* Images.xcassets */; };
+		29734DFE1A294E7B009E18E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29734DFC1A294E7B009E18E7 /* LaunchScreen.xib */; };
+		29734E0A1A294E7B009E18E7 /* pianoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29734E091A294E7B009E18E7 /* pianoSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29734E041A294E7B009E18E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29734DE61A294E7A009E18E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29734DED1A294E7B009E18E7;
+			remoteInfo = pianoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29734DEE1A294E7B009E18E7 /* pianoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pianoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29734DF21A294E7B009E18E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29734DF31A294E7B009E18E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29734DF51A294E7B009E18E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29734DF81A294E7B009E18E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29734DFA1A294E7B009E18E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29734DFD1A294E7B009E18E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29734E031A294E7B009E18E7 /* pianoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pianoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29734E081A294E7B009E18E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29734E091A294E7B009E18E7 /* pianoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pianoSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29734DEB1A294E7B009E18E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29734E001A294E7B009E18E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29734DE51A294E7A009E18E7 = {
+			isa = PBXGroup;
+			children = (
+				29734DF01A294E7B009E18E7 /* pianoSwift */,
+				29734E061A294E7B009E18E7 /* pianoSwiftTests */,
+				29734DEF1A294E7B009E18E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29734DEF1A294E7B009E18E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29734DEE1A294E7B009E18E7 /* pianoSwift.app */,
+				29734E031A294E7B009E18E7 /* pianoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29734DF01A294E7B009E18E7 /* pianoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				29734DF31A294E7B009E18E7 /* AppDelegate.swift */,
+				29734DF51A294E7B009E18E7 /* ViewController.swift */,
+				29734DF71A294E7B009E18E7 /* Main.storyboard */,
+				29734DFA1A294E7B009E18E7 /* Images.xcassets */,
+				29734DFC1A294E7B009E18E7 /* LaunchScreen.xib */,
+				29734DF11A294E7B009E18E7 /* Supporting Files */,
+			);
+			path = pianoSwift;
+			sourceTree = "<group>";
+		};
+		29734DF11A294E7B009E18E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29734DF21A294E7B009E18E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29734E061A294E7B009E18E7 /* pianoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				29734E091A294E7B009E18E7 /* pianoSwiftTests.swift */,
+				29734E071A294E7B009E18E7 /* Supporting Files */,
+			);
+			path = pianoSwiftTests;
+			sourceTree = "<group>";
+		};
+		29734E071A294E7B009E18E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29734E081A294E7B009E18E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29734DED1A294E7B009E18E7 /* pianoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29734E0D1A294E7B009E18E7 /* Build configuration list for PBXNativeTarget "pianoSwift" */;
+			buildPhases = (
+				29734DEA1A294E7B009E18E7 /* Sources */,
+				29734DEB1A294E7B009E18E7 /* Frameworks */,
+				29734DEC1A294E7B009E18E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pianoSwift;
+			productName = pianoSwift;
+			productReference = 29734DEE1A294E7B009E18E7 /* pianoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29734E021A294E7B009E18E7 /* pianoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29734E101A294E7B009E18E7 /* Build configuration list for PBXNativeTarget "pianoSwiftTests" */;
+			buildPhases = (
+				29734DFF1A294E7B009E18E7 /* Sources */,
+				29734E001A294E7B009E18E7 /* Frameworks */,
+				29734E011A294E7B009E18E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29734E051A294E7B009E18E7 /* PBXTargetDependency */,
+			);
+			name = pianoSwiftTests;
+			productName = pianoSwiftTests;
+			productReference = 29734E031A294E7B009E18E7 /* pianoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29734DE61A294E7A009E18E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "中川 亮";
+				TargetAttributes = {
+					29734DED1A294E7B009E18E7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					29734E021A294E7B009E18E7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 29734DED1A294E7B009E18E7;
+					};
+				};
+			};
+			buildConfigurationList = 29734DE91A294E7B009E18E7 /* Build configuration list for PBXProject "pianoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29734DE51A294E7A009E18E7;
+			productRefGroup = 29734DEF1A294E7B009E18E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29734DED1A294E7B009E18E7 /* pianoSwift */,
+				29734E021A294E7B009E18E7 /* pianoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29734DEC1A294E7B009E18E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29734DF91A294E7B009E18E7 /* Main.storyboard in Resources */,
+				29734DFE1A294E7B009E18E7 /* LaunchScreen.xib in Resources */,
+				29734DFB1A294E7B009E18E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29734E011A294E7B009E18E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29734DEA1A294E7B009E18E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29734DF61A294E7B009E18E7 /* ViewController.swift in Sources */,
+				29734DF41A294E7B009E18E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29734DFF1A294E7B009E18E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29734E0A1A294E7B009E18E7 /* pianoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29734E051A294E7B009E18E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29734DED1A294E7B009E18E7 /* pianoSwift */;
+			targetProxy = 29734E041A294E7B009E18E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29734DF71A294E7B009E18E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29734DF81A294E7B009E18E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29734DFC1A294E7B009E18E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29734DFD1A294E7B009E18E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29734E0B1A294E7B009E18E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29734E0C1A294E7B009E18E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29734E0E1A294E7B009E18E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pianoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29734E0F1A294E7B009E18E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pianoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29734E111A294E7B009E18E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pianoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pianoSwift.app/pianoSwift";
+			};
+			name = Debug;
+		};
+		29734E121A294E7B009E18E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pianoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pianoSwift.app/pianoSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29734DE91A294E7B009E18E7 /* Build configuration list for PBXProject "pianoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29734E0B1A294E7B009E18E7 /* Debug */,
+				29734E0C1A294E7B009E18E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29734E0D1A294E7B009E18E7 /* Build configuration list for PBXNativeTarget "pianoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29734E0E1A294E7B009E18E7 /* Debug */,
+				29734E0F1A294E7B009E18E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29734E101A294E7B009E18E7 /* Build configuration list for PBXNativeTarget "pianoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29734E111A294E7B009E18E7 /* Debug */,
+				29734E121A294E7B009E18E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29734DE61A294E7A009E18E7 /* Project object */;
+}
